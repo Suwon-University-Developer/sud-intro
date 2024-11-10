@@ -1,41 +1,5 @@
-# Website
+# Sudo-intro
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+## 소개
+sudo-intro는 수원대학교 학생들이 원하는 강의를 수강하지 못하는 문제, 교내 동아리의 파편화, 그리고 독학으로 개발을 배우며 느끼는 고립감을 해소하기 위해 만든 오픈소스 문서화 프로젝트입니다. 다른 학교에서는 활발한 개발 동아리나 공동 학습 그룹이 있지만, 수원대학교에서는 이러한 협업 환경이 부족한 실정입니다. sudo-intro는 이러한 문제를 해결하고자, 다양한 개발 분야별 가이드, 교내 CS 강의 자료, 그리고 개발 초보자를 위한 스타터 가이드를 제공하여 학생들이 효율적으로 학습하고 함께 협업할 수 있는 환경을 만들고자 합니다.
 
-### Installation
-
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
